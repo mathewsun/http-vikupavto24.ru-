@@ -4149,3 +4149,27 @@ i.chek {
         padding: 15px;
     }
 }
+
+@media (min-width: 992px) {
+    .logo img {
+        width: 310px;
+        height: 88px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .logo img {
+        width: 230px;
+        height: 65px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        width: 510px;
+        height: 145px;
+    }
+
+}
