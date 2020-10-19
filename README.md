@@ -1,1 +1,1 @@
-# http-vikupavto24.ru-
+# vikupavto24.ru
