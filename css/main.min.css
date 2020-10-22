@@ -411,7 +411,7 @@ html {
     padding-left: 0
 }
 
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-2-modify, .col-xl-3, .col-xl-3-modify, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -1528,18 +1528,34 @@ html {
 
     .col-xl-2 {
         -webkit-box-flex: 0;
-        -webkit-flex: 0 0 16.66667%;
-        -ms-flex: 0 0 16.66667%;
-        flex: 0 0 16.66667%;
-        max-width: 16.66667%
+        -webkit-flex: 0 0 20.66667%;
+        -ms-flex: 0 0 20.66667%;
+        flex: 0 0 20.66667%;
+        max-width: 20.66667%
+    }
+    
+    .col-xl-2-modify {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 24%;
+        -ms-flex: 0 0 24%;
+        flex: 0 0 24%;
+        max-width: 24%
     }
 
     .col-xl-3 {
         -webkit-box-flex: 0;
-        -webkit-flex: 0 0 25%;
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%
+        -webkit-flex: 0 0 20%;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 21%
+    }
+
+    .col-xl-3-modify {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 21%;
+        -ms-flex: 0 0 21%;
+        flex: 0 0 21%;
+        max-width: 21%
     }
 
     .col-xl-4 {
@@ -1724,7 +1740,7 @@ html {
     }
 
     .offset-xl-1 {
-        margin-left: 8.33333%
+        margin-left: 5%
     }
 
     .offset-xl-2 {
@@ -3050,12 +3066,12 @@ html {
 }
 
 ::-moz-selection {
-    background-color: #f49b0c;
+    background-color: #1e94dc;
     color: #fff
 }
 
 ::selection {
-    background-color: #f49b0c;
+    background-color: #1e94dc;
     color: #fff
 }
 
@@ -3066,7 +3082,7 @@ body {
     line-height: 1.5;
     font-family: Roboto, sans-serif;
     overflow-x: hidden;
-    color: #212121
+    color: #585858
 }
 
 body input, body textarea {
@@ -3105,7 +3121,7 @@ a, button {
 }
 
 .header {
-    padding: 50px 0 70px
+    padding: 30px 0 30px
 }
 
 .logo img {
@@ -3116,9 +3132,23 @@ a, button {
 .phone a, .work_time {
     font-size: 20px;
     font-weight: 700;
-    color: #212121;
+    color: #585858;
     display: block;
     margin-top: -8px;
+    text-decoration: none
+}
+
+.phone_link{
+    font-size: 36px !important;
+    font-weight: bold !important;
+}
+
+.work_region {
+    font-size: 20px;
+    font-weight: 700;
+    color: #585858;
+    display: block;
+    margin-top: 0px;
     text-decoration: none
 }
 
@@ -3136,8 +3166,8 @@ a, button {
     border-top: 0 none;
     border-right: 0 none;
     border-left: 0 none;
-    border-bottom: 1px dotted #737373;
-    color: #737373;
+    border-bottom: 1px dotted #1e94dc;
+    color: #1e94dc;
     font-size: 15px;
     padding: 0;
     margin-top: 5px;
@@ -3145,7 +3175,11 @@ a, button {
 }
 
 .left_padding {
-    padding-left: 4% !important
+    padding-left: 2% !important
+}
+
+.left_padding-10 {
+    padding-left: 10% !important;
 }
 
 .header .social_icon {
@@ -3167,7 +3201,7 @@ a, button {
 .social_icon a {
     padding-right: 5px;
     font-size: 15px;
-    color: #737373;
+    color: #1e94dc;
     line-height: 20px;
     text-decoration: none;
 }
@@ -3179,9 +3213,21 @@ a, button {
 }
 
 .offer {
-    background: url(../img/big_car.jpg) top center no-repeat;
+    background-color: #f0f0f0;
     padding-bottom: 100px;
     padding-top: 18px
+}
+
+.suboffer{
+    background: url(../img/problema-avto440.jpg) top center no-repeat;
+    
+}
+
+@media (min-width: 992px) {
+    .suboffer{
+        margin-right: 100px;
+        background: url(../img/problema-avto440.jpg) top right no-repeat;
+    }
 }
 
 h1 {
@@ -3193,7 +3239,7 @@ h1 {
 h1 span {
     display: block;
     text-transform: uppercase;
-    color: #f49b0c;
+    color: #1e94dc;
     font-size: 56px;
     font-family: RobotoBlack, sans-serif
 }
@@ -3217,7 +3263,7 @@ ul li:before {
     display: block;
     width: 20px;
     height: 20px;
-    content: url(../img/check-button.svg)
+    content: url(../img/check-button20.png)
 }
 
 .lead_form {
@@ -3249,7 +3295,7 @@ ul li:before {
     -webkit-flex-basis: 32.5%;
     -ms-flex-preferred-size: 32.5%;
     flex-basis: 32.5%;
-    color: #737373;
+    color: #1e94dc;
     border: 0 none !important;
     background: #fff
 }
@@ -3260,7 +3306,7 @@ ul li:before {
 }
 
 .lead_form button {
-    background: #f49b0c;
+    background: #1e94dc;
     color: #fff;
     font-size: 14px;
     font-weight: 700;
@@ -3286,7 +3332,7 @@ ul li:before {
 }
 
 .t-head span {
-    color: #f49b0c
+    color: #1e94dc
 }
 
 .why_we .t-head {
@@ -3314,7 +3360,7 @@ ul li:before {
 }
 
 .orange_square {
-    background: #f49b0c;
+    background: #1e94dc;
     width: 100%;
     height: 100%;
     text-align: center
@@ -3420,7 +3466,7 @@ ul li:before {
 }
 
 .number {
-    color: #f49b0c;
+    color: #1e94dc;
     font-size: 35px;
     font-family: RobotoBlack, sans-serif;
     position: absolute;
@@ -3449,7 +3495,7 @@ ul li:before {
 }
 
 .feedback {
-    background: #ececec url(../img/feedback_bg.jpg) top center no-repeat;
+    background: #ececec url(../img/feedback_bg_2.jpg) top center no-repeat;
     height: 470px;
     padding-top: 75px;
     padding-bottom: 65px
@@ -3488,7 +3534,7 @@ ul li:before {
     -webkit-flex-basis: 49%;
     -ms-flex-preferred-size: 49%;
     flex-basis: 49%;
-    color: #737373;
+    color: #1e94dc;
     border: 0 none !important;
     background: #fff
 }
@@ -3499,7 +3545,7 @@ ul li:before {
 }
 
 .feedback button {
-    background: #f49b0c;
+    background: #1e94dc;
     color: #fff;
     font-size: 14px;
     font-weight: 700;
@@ -3556,7 +3602,7 @@ ul li:before {
 }
 
 .text .price_as24 {
-    background: #f49b0c;
+    background: #1e94dc;
     position: relative
 }
 
@@ -3596,7 +3642,7 @@ i.chek {
     background: url(../img/update.svg) left center no-repeat;
     border: 0 none;
     cursor: pointer;
-    color: #f49b0c;
+    color: #1e94dc;
     padding-left: 35px
 }
 
@@ -3609,7 +3655,18 @@ i.chek {
     background: #fff;
     -webkit-box-shadow: 0 0 25px 0 rgba(48, 48, 49, .1);
     box-shadow: 0 0 25px 0 rgba(48, 48, 49, .1);
-    padding: 35px 10px 35px 40px
+    padding: 35px 10px 35px 40px;
+}
+
+@media (min-width: 1200px){
+    .contact_bottom {
+    max-width: 27% !important;
+    flex: 0 0 27% !important;
+}
+
+.mail a {
+    font-size: 14px !important;
+}
 }
 
 .contact_bottom .phone a {
@@ -3629,7 +3686,7 @@ i.chek {
 }
 
 .copywrite, .policy a {
-    color: #737373;
+    color: #1e94dc;
     font-size: 15px
 }
 
@@ -3682,7 +3739,7 @@ i.chek {
 }
 
 .modal .modal_body .sub-t-head {
-    color: #737373
+    color: #1e94dc
 }
 
 .modal .modal_body form {
@@ -3702,7 +3759,7 @@ i.chek {
 .modal .modal_body form input {
     height: 60px;
     line-height: 60px;
-    border: 1px solid #737373;
+    border: 1px solid #1e94dc;
     background: 0 0;
     margin-bottom: 20px;
     padding: 0 20px;
@@ -3710,7 +3767,7 @@ i.chek {
 }
 
 .modal .modal_body form button {
-    background: #f49b0c;
+    background: #1e94dc;
     height: 60px;
     line-height: 60px;
     border: 0 none;
@@ -4071,7 +4128,7 @@ i.chek {
     }
 
     .feedback {
-        background: #ececec url(../img/feedback_bg.jpg) top center no-repeat;
+        background: #ececec url(../img/feedback_bg_2.jpg) top center no-repeat;
         height: 470px;
         padding-top: 35px;
         padding-bottom: 35px
@@ -4145,7 +4202,7 @@ i.chek {
     }
 
     .header .h-text {
-        border: 1px solid #f49b0c;
+        border: 1px solid #1e94dc;
         padding: 15px;
     }
 }
@@ -4168,8 +4225,16 @@ i.chek {
 
 @media (max-width: 767px) {
     .logo img {
-        width: 510px;
-        height: 145px;
+        width: 453px;
+        height: 129px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .logo img {
+        width: 330px;
+        height: 94px;
     }
 
 }
